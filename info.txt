@@ -1,0 +1,2 @@
+! in emmett creates a skeleton of a webpage
+tab turns emmett into html
