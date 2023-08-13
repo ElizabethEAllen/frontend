@@ -1,7 +1,21 @@
 body{
     background-color: #efef6a;
     color:blue;
+    font-family: 'Borel', cursive;
 }
 ul{
     list-style-type: '☺︎';
+}
+
+.important{
+    color:red;
+
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.center{
+    text-align: center;
 }
