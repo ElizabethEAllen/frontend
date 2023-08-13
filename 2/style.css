@@ -1,0 +1,22 @@
+body{
+    background-color: #9AF3C0;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    display: inline-block;
+    border: black 1px solid;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    background-color: #9AF3C0;
+    padding: 2px 40px;
+    border-radius: 15px;
+    display: inline-block;
+}

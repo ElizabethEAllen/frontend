@@ -7,6 +7,9 @@ ul{
     list-style-type: '☺︎';
 }
 
+h1{
+    text-shadow: -12px 9px 8px black;
+}
 .important{
     color:red;
 
