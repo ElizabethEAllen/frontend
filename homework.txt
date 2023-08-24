@@ -1,1 +1,2 @@
+have 6 sections in game shop; at least 1 card per section to scroll to section
 fill in about myself file in directory 0 personal webpage and practice whatever we've covered so far
