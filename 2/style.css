@@ -3,11 +3,21 @@ body{
     text-align: center;
 }
 
+.menu>a{
+    padding: 2px 4px;
+    border: #8c1e00 1px solid;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: #8c1e00;
+    box-shadow: 3px 2px 0 #8c1e00;
+    margin: 10px 50px;
+}
 .card{
     background-color: white;
     width: 300px;
     display: inline-block;
-    border: black 1px solid;
+    border: black 5px solid;
     padding-bottom: 50px;
     margin: 20px;
 }
@@ -16,7 +26,7 @@ img{
     max-width: 100%;
 }
 
-a{
+.card>a{
     background-color: #9AF3C0;
     padding: 2px 40px;
     border-radius: 15px;
