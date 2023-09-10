@@ -1,2 +1,2 @@
-create menu 3 table/Homework and finish table 3 table/
+create menu 2 padding margin/Homework and finish table 3 table/
 schedule: th 15:30 su 13:00
