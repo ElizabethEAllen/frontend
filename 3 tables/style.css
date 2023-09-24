@@ -89,13 +89,17 @@ th:nth-child(4){
 }
 
 td .price{
-    box-shadow: 0px 2px 6px 1px #ccc;
+    box-shadow: 0 2px 6px 2px #ccc;
 }
 
 td .button{
     color: white;
     border-radius: 15px;
     padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 1px 1px 5px black ;
 
 }
 td:first-child .button{
