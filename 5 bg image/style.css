@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+.heading {
+    background-color: #e7cc32;
+    height: 900px;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 50px 200px 20px 200px;
+    border-bottom: black solid 15px;
+    display: inline-block;
+}
+
+td {
+    width: 511px;
+    height: 272px;
+}
+
+tr:nth-child(1)>td{
+    background-image: url("img/pic1.png");
+}
