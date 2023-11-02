@@ -4,18 +4,23 @@ body{
 
 .heading {
     background-color: #e7cc32;
-    height: 900px;
+    height: 500px;
     background-image: url("img/header.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 h1 {
     font-size: 40px;
     padding: 50px 200px 20px 200px;
-    border-bottom: black solid 15px;
+    border-bottom: black solid 13px;
     display: inline-block;
+}
+
+table{
+    margin: auto;
 }
 
 td {
@@ -25,4 +30,12 @@ td {
 
 tr:nth-child(1)>td{
     background-image: url("img/pic1.png");
+}
+
+tr:nth-child(2)>td{
+    background-image: url("img/pic2.png");
+}
+
+tr:nth-child(3)>td{
+    background-image: url("img/pic3.png");
 }
