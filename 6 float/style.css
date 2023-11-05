@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+h1{
+    font-family: 'Berkshire Swash', serif;
+    font-size: 50px;
+    text-shadow: -2px 4px 5px black;
+}
 div.paper{
     width: min-content;
     text-align: center;
     background-color: #E7E1DA;
     margin: auto;
+}
+
+div.rest{
+    border: black 1px solid;
+    margin: 10px 30px;
+
+}
+
+div.rest>p{
+    text-align: left;
+    margin: 20px;
+    font-family: 'Henny Penny', serif;
+}
+
+div.rest img{
+    float: right;
 }
