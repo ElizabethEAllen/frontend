@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 h1{
     font-family: 'Berkshire Swash', serif;
-    font-size: 50px;
+    font-size: 70px;
     text-shadow: -2px 4px 5px black;
 }
 div.paper{
@@ -10,10 +10,11 @@ div.paper{
     text-align: center;
     background-color: #E7E1DA;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 div.rest{
-    border: black 1px solid;
+    border: black 2px solid;
     margin: 10px 30px;
 
 }
@@ -22,8 +23,28 @@ div.rest>p{
     text-align: left;
     margin: 20px;
     font-family: 'Henny Penny', serif;
+    border-top: 1px #bbb solid;
+    padding-top: 10px;
 }
 
 div.rest img{
     float: right;
+    opacity: 0.7;
+    margin: 0 5px 30px 10px;
+}
+h2{
+    font-family: 'Berkshire Swash', serif;
+    font-size: 40px;
+    text-shadow: -2px 4px 5px black;
+    margin-top: 70px;
+}
+
+div.column{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: justify;
+    text-align-last: center;
+    margin: 10px;
+    font-family: 'Henny Penny', serif;
 }
