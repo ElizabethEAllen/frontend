@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto&display=swap');
+body{
+    background: rgb(238,143,250);
+    background: linear-gradient(43deg, rgba(238,143,250,1) 0%, rgba(86,158,238,1) 97%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+h1{
+    margin: 0;
+}
+.container{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
