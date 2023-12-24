@@ -13,9 +13,18 @@ body{
     color: white;
     margin-bottom: 75px;
 }
-.moving>div{
-    /*animation: moving_up_down 5s;*/
+.moving>span{
+    animation: 5s linear 2s infinite alternate none;
+    animation-name: moving_up_down;
+    display: inline-block;
 }
+.moving>:last-child{
+    animation-delay: 4s;
+}
+.moving>.moving_1{
+    animation-delay: 0s;
+}
+
 .container{
     font-size: 50px;
     position: absolute;
@@ -33,9 +42,12 @@ body{
 }
 @keyframes moving_up_down {
     0% {
-        transform: translateY(-100%);
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-100%)
     }
     100% {
-        transform: translateY(100%);
+        transform: translateY(0%);
     }
 }
