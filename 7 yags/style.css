@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto&display=swap');
 body{
+    font-family: 'Roboto', sans-serif;
     background: rgb(238,143,250);
     background: linear-gradient(43deg, rgba(238,143,250,1) 0%, rgba(86,158,238,1) 97%);
     background-repeat: no-repeat;
@@ -9,12 +10,12 @@ body{
 }
 .moving{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
     color: white;
     margin-bottom: 75px;
 }
 .moving>span{
-    animation: 5s linear 2s infinite alternate none;
+    /*https://cubic-bezier.com/#0,.98,1,1.62*/
+    animation: 5s cubic-bezier(0,.98,1,1.62) 2s infinite alternate none;
     animation-name: moving_up_down;
     display: inline-block;
 }
@@ -50,4 +51,42 @@ body{
     100% {
         transform: translateY(0%);
     }
+}
+.menu{
+    background-color: black;
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+}
+.card{
+    height: 500px;
+    width: 320px;
+    background-color: black;
+    border: white 10px solid;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.card a{
+    color: white;
+    display: inline-block;
+    padding: 20px 70px;
+    border: white 1px solid;
+    font-size: 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF7E50;
+    border-radius: 10px;
+
 }

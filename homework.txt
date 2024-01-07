@@ -1,5 +1,4 @@
 5 bg image/Домашнее задание
 6 float/Домашнее задание
-tell teacher that we'll figure out this: cubic-bezier.com
 487-693-6429 - voov
-schedule: th 15:30 su 14:00
+schedule: su 12:30
