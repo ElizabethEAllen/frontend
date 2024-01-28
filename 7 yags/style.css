@@ -62,19 +62,30 @@ body{
     display: inline-block;
     margin: 15px;
     font-size: 20px;
+    transition-duration: 0.5s;
+}
+.menu a:hover{
+    text-shadow: white 0 0 7px;
+    transform: scale(110%)
 }
 .card{
     height: 500px;
     width: 320px;
     background-color: black;
-    border: white 10px solid;
+    box-shadow: black 0 0 16px 0;
     display: inline-block;
     border-radius: 10px;
     margin: 5px;
     background-position: center;
     background-size: cover;
     position: relative;
+    filter: contrast(50%);
+    transition-duration: 0.5s;
+}
 
+.card:hover{
+    filter: contrast(100%);
+    transform: scale(102%)
 }
 .card a{
     color: white;
